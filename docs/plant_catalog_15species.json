@@ -1,0 +1,700 @@
+{
+  "metadata": {
+    "title": "Plantii 식물 카탈로그",
+    "description": "15종 실제 식물의 생육환경 데이터",
+    "version": "1.0",
+    "created_at": "2026-04-08",
+    "total_plants": 15
+  },
+  "plants": [
+    {
+      "id": "rose",
+      "name_ko": "장미",
+      "name_en": "Rose",
+      "scientific_name": "Rosa spp.",
+      "category": "flowering",
+      "environment": {
+        "temperature": {
+          "optimal_min": 20,
+          "optimal_max": 27,
+          "night_min": 15,
+          "night_max": 18,
+          "tolerance_min": 15,
+          "tolerance_max": 30,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 15,
+          "optimal_max": 30,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 6,
+          "lux_min": 50000,
+          "type": "direct_sunlight",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_spring_fall": 1,
+          "frequency_summer": 0.5,
+          "frequency_winter": 14,
+          "method": "토양 표면 건조 시 충분히",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "growth_period": "연중 (봄-여름 왕성)",
+        "flowering_season": "봄-가을",
+        "maturity_days": 90,
+        "propagation": "접목, 삽목"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실외 최적, 실내 가능",
+        "difficulty": "medium",
+        "notes": "병충해 관리 필수, 배수 중요"
+      }
+    },
+    {
+      "id": "cactus",
+      "name_ko": "선인장",
+      "name_en": "Cactus",
+      "scientific_name": "Cactaceae",
+      "category": "succulent",
+      "environment": {
+        "temperature": {
+          "optimal_min": 18,
+          "optimal_max": 24,
+          "tolerance_min": 5,
+          "tolerance_max": 40,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 40,
+          "optimal_max": 60,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 5,
+          "lux_min": 5000,
+          "lux_max": 8000,
+          "type": "bright_indirect",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_spring_fall": 35,
+          "frequency_summer_winter": 42,
+          "method": "겉흙 완전 건조 후",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "growth_period": "봄-가을",
+        "dormancy": "겨울",
+        "maturity_days": 365,
+        "propagation": "삽목, 종자"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내 최적",
+        "difficulty": "easy",
+        "notes": "과습 주의, 배수 필수"
+      }
+    },
+    {
+      "id": "tulip",
+      "name_ko": "튤립",
+      "name_en": "Tulip",
+      "scientific_name": "Tulipa gesneriana",
+      "category": "flowering",
+      "environment": {
+        "temperature": {
+          "optimal_growth": 15,
+          "optimal_max": 20,
+          "vernalization": 5,
+          "tolerance_min": 0,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 40,
+          "optimal_max": 60,
+          "notes": "과습 피함",
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 6,
+          "type": "direct_sunlight",
+          "location": "남향",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_winter": 30,
+          "frequency_growing": 7,
+          "method": "겉흙 건조 시",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "planting_season": "10-12월",
+        "flowering_season": "3-5월",
+        "bulb_to_bloom_days": 90,
+        "maturity_days": 120,
+        "propagation": "구근"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실외 최적, 실내 가능 (서늘한 곳)",
+        "difficulty": "easy",
+        "notes": "월동 필요, 배수 중요"
+      }
+    },
+    {
+      "id": "sunflower",
+      "name_ko": "해바라기",
+      "name_en": "Sunflower",
+      "scientific_name": "Helianthus annuus",
+      "category": "flowering",
+      "environment": {
+        "temperature": {
+          "optimal_germination": 25,
+          "optimal_growth_min": 20,
+          "optimal_growth_max": 30,
+          "tolerance_min": 10,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 40,
+          "optimal_max": 50,
+          "notes": "건조 선호",
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 7,
+          "type": "direct_sunlight",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_spring_summer": 4,
+          "frequency_fall_winter": 10,
+          "method": "겉흙 건조 시 충분히",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "germination_days": 10,
+        "flowering_days": 60,
+        "maturity_days": 90,
+        "growth_period": "봄-여름",
+        "propagation": "종자"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실외 최적",
+        "difficulty": "easy",
+        "notes": "깊은 화분 필요, 통풍 중요"
+      }
+    },
+    {
+      "id": "lavender",
+      "name_ko": "라벤더",
+      "name_en": "Lavender",
+      "scientific_name": "Lavandula spp.",
+      "category": "herb",
+      "environment": {
+        "temperature": {
+          "optimal_day_min": 15,
+          "optimal_day_max": 21,
+          "optimal_night_min": 4,
+          "optimal_night_max": 10,
+          "tolerance_min": 3,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 30,
+          "optimal_max": 40,
+          "notes": "건조 환경 선호",
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 6,
+          "type": "direct_sunlight",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_summer": 7,
+          "frequency_winter": 14,
+          "method": "흙 표면 2-3cm 건조 후",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "growth_period": "봄-여름",
+        "flowering_season": "6-8월",
+        "maturity_days": 90,
+        "propagation": "삽목, 종자"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실외 최적, 실내 가능",
+        "difficulty": "medium",
+        "notes": "과습 주의, 통풍 필수"
+      }
+    },
+    {
+      "id": "orchid",
+      "name_ko": "난초 (호접란)",
+      "name_en": "Orchid (Phalaenopsis)",
+      "scientific_name": "Phalaenopsis spp.",
+      "category": "flowering",
+      "environment": {
+        "temperature": {
+          "optimal_day_min": 18,
+          "optimal_day_max": 27,
+          "optimal_night_min": 15,
+          "optimal_night_max": 20,
+          "day_night_difference": 5,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 50,
+          "optimal_max": 70,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 11,
+          "lux_min": 10000,
+          "lux_max": 20000,
+          "type": "bright_indirect",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_spring": 9,
+          "frequency_summer": 6,
+          "frequency_fall": 10,
+          "frequency_winter": 8,
+          "method": "뿌리 은회색 시",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "growth_period": "봄-가을",
+        "dormancy": "겨울",
+        "flowering_season": "연중 가능",
+        "maturity_days": 180,
+        "propagation": "포기나누기"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내 최적",
+        "difficulty": "medium",
+        "notes": "과습 주의, 뿌리 상태 관찰 중요"
+      }
+    },
+    {
+      "id": "aloe",
+      "name_ko": "알로에",
+      "name_en": "Aloe Vera",
+      "scientific_name": "Aloe vera",
+      "category": "succulent",
+      "environment": {
+        "temperature": {
+          "optimal_min": 18,
+          "optimal_max": 24,
+          "tolerance_min": 13,
+          "tolerance_max": 27,
+          "critical_min": 4,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 40,
+          "optimal_max": 60,
+          "notes": "일반 실내 수준",
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 5,
+          "type": "bright_indirect",
+          "notes": "아침 직사광 가능",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_spring_summer": 11,
+          "frequency_fall_winter": 25,
+          "method": "흙 상부 1/3 건조 후",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "growth_period": "봄-여름 (20-30°C)",
+        "dormancy": "가을-겨울",
+        "flowering_season": "2-3월",
+        "maturity_days": 365,
+        "propagation": "분주, 잎꽂이"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내 최적, 봄-가을 실외 가능",
+        "difficulty": "easy",
+        "notes": "과습 주의, 다육용 토양"
+      }
+    },
+    {
+      "id": "succulent",
+      "name_ko": "다육식물 (에케베리아)",
+      "name_en": "Succulent (Echeveria)",
+      "scientific_name": "Echeveria spp.",
+      "category": "succulent",
+      "environment": {
+        "temperature": {
+          "optimal_min": 20,
+          "optimal_max": 25,
+          "tolerance_min": 10,
+          "tolerance_max": 30,
+          "critical_min": 5,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 40,
+          "optimal_max": 70,
+          "notes": "건조 선호",
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 5,
+          "type": "bright_indirect",
+          "notes": "여름 차광 40-50%",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_spring_fall": 10,
+          "frequency_summer": 7,
+          "frequency_winter": 21,
+          "method": "겉흙 완전 건조 후",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "growth_period": "봄-가을 (춘추형)",
+        "flowering_season": "봄",
+        "maturity_days": 180,
+        "propagation": "잎꽂이, 분주"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내/실외 모두 가능",
+        "difficulty": "easy",
+        "notes": "배수 최우선, 과습 주의"
+      }
+    },
+    {
+      "id": "rubber_plant",
+      "name_ko": "고무나무",
+      "name_en": "Rubber Plant",
+      "scientific_name": "Ficus elastica",
+      "category": "foliage",
+      "environment": {
+        "temperature": {
+          "optimal_min": 21,
+          "optimal_max": 25,
+          "tolerance_min": 15,
+          "tolerance_max": 28,
+          "critical_min": 10,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 40,
+          "optimal_max": 70,
+          "notes": "분무 권장",
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 6,
+          "type": "bright_indirect",
+          "location": "남향 창가",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_spring_summer": 6,
+          "frequency_fall_winter": 10,
+          "method": "겉흙 건조 시 충분히",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "growth_period": "봄-가을",
+        "dormancy": "겨울",
+        "maturity_days": 365,
+        "propagation": "삽목, 취목"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내 최적",
+        "difficulty": "easy",
+        "notes": "공기정화 식물, 과습 주의"
+      }
+    },
+    {
+      "id": "monstera",
+      "name_ko": "몬스테라",
+      "name_en": "Monstera",
+      "scientific_name": "Monstera deliciosa",
+      "category": "foliage",
+      "environment": {
+        "temperature": {
+          "optimal_min": 20,
+          "optimal_max": 25,
+          "tolerance_min": 18,
+          "tolerance_max": 27,
+          "critical_min": 15,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 60,
+          "optimal_max": 70,
+          "tolerance_min": 50,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 7,
+          "type": "bright_indirect",
+          "location": "동/북향 창가",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_spring_summer": 8,
+          "frequency_fall_winter": 17,
+          "method": "흙 상부 2-5cm 건조 후",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "growth_period": "연중 (봄-여름 왕성)",
+        "maturity_days": 365,
+        "propagation": "삽목, 물꽂이"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내 최적",
+        "difficulty": "easy",
+        "notes": "공중뿌리 유지, 지주대 필요"
+      }
+    },
+    {
+      "id": "lettuce",
+      "name_ko": "상추",
+      "name_en": "Lettuce",
+      "scientific_name": "Lactuca sativa",
+      "category": "vegetable",
+      "environment": {
+        "temperature": {
+          "optimal_min": 15,
+          "optimal_max": 20,
+          "tolerance_min": 7,
+          "tolerance_max": 24,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 50,
+          "optimal_max": 70,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 6,
+          "lux_min": 15000,
+          "lux_max": 25000,
+          "type": "bright_light",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency": 2,
+          "method": "일관된 수분 유지",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "germination_days": 7,
+        "harvest_days_min": 25,
+        "harvest_days_max": 60,
+        "growth_period": "연중",
+        "propagation": "종자"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내/실외 모두 적합",
+        "difficulty": "easy",
+        "notes": "빠른 성장, 초보자 적합"
+      }
+    },
+    {
+      "id": "tomato",
+      "name_ko": "토마토",
+      "name_en": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "vegetable",
+      "environment": {
+        "temperature": {
+          "optimal_day_min": 20,
+          "optimal_day_max": 25,
+          "optimal_night_min": 13,
+          "optimal_night_max": 18,
+          "tolerance_min": 10,
+          "tolerance_max": 30,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 65,
+          "optimal_max": 85,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 8,
+          "lux_min": 30000,
+          "type": "direct_sunlight",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency": 2,
+          "method": "일관된 수분 필수",
+          "notes": "불규칙 관수 금지",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "germination_days": 7,
+        "harvest_days_min": 50,
+        "harvest_days_max": 85,
+        "growth_period": "봄-가을",
+        "propagation": "종자"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실외 최적, 실내 가능",
+        "difficulty": "hard",
+        "notes": "정밀 관리 필요, 지주대 필수"
+      }
+    },
+    {
+      "id": "chili",
+      "name_ko": "고추",
+      "name_en": "Chili Pepper",
+      "scientific_name": "Capsicum annuum",
+      "category": "vegetable",
+      "environment": {
+        "temperature": {
+          "optimal_min": 21,
+          "optimal_max": 26,
+          "tolerance_min": 15,
+          "tolerance_max": 32,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 65,
+          "optimal_max": 85,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 8,
+          "lux_min": 35000,
+          "type": "direct_sunlight",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency": 3,
+          "method": "일관된 수분",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "germination_days": 10,
+        "harvest_days_min": 90,
+        "harvest_days_max": 180,
+        "growth_period": "봄-가을",
+        "propagation": "종자"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실외 최적",
+        "difficulty": "hard",
+        "notes": "긴 재배 기간, 온도 민감"
+      }
+    },
+    {
+      "id": "basil",
+      "name_ko": "바질",
+      "name_en": "Basil",
+      "scientific_name": "Ocimum basilicum",
+      "category": "herb",
+      "environment": {
+        "temperature": {
+          "optimal_min": 26,
+          "optimal_max": 32,
+          "tolerance_min": 15,
+          "tolerance_max": 35,
+          "critical_min": 12,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 65,
+          "optimal_max": 85,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 6,
+          "lux_min": 20000,
+          "type": "bright_light",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency_indoor": 3,
+          "frequency_outdoor": 5,
+          "method": "토양 수분 유지",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "germination_days": 7,
+        "harvest_days_min": 28,
+        "harvest_days_max": 42,
+        "growth_period": "봄-여름",
+        "propagation": "종자, 삽목"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내/실외 모두 적합",
+        "difficulty": "easy",
+        "notes": "빠른 성장, 향신료"
+      }
+    },
+    {
+      "id": "mint",
+      "name_ko": "민트",
+      "name_en": "Mint",
+      "scientific_name": "Mentha spp.",
+      "category": "herb",
+      "environment": {
+        "temperature": {
+          "optimal_min": 13,
+          "optimal_max": 21,
+          "tolerance_min": 5,
+          "tolerance_max": 30,
+          "critical_min": -10,
+          "unit": "celsius"
+        },
+        "humidity": {
+          "optimal_min": 50,
+          "optimal_max": 70,
+          "unit": "percentage"
+        },
+        "light": {
+          "hours_per_day": 5,
+          "type": "partial_shade",
+          "notes": "반양지 선호",
+          "unit": "hours"
+        },
+        "watering": {
+          "frequency": 3,
+          "method": "표토 건조 시",
+          "unit": "days"
+        }
+      },
+      "growth": {
+        "germination_days": 10,
+        "harvest_days_min": 56,
+        "harvest_days_max": 84,
+        "growth_period": "봄-가을",
+        "propagation": "삽목, 분주"
+      },
+      "cultivation": {
+        "indoor_outdoor": "실내/실외 모두 적합",
+        "difficulty": "easy",
+        "notes": "번식력 강함, 향신료"
+      }
+    }
+  ]
+}

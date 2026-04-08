@@ -1,0 +1,16 @@
+id,name_ko,name_en,scientific_name,category,temp_optimal_min,temp_optimal_max,temp_tolerance_min,temp_tolerance_max,humidity_min,humidity_max,light_hours,light_type,watering_frequency_days,growth_period_days,indoor_outdoor,difficulty,특징
+rose,장미,Rose,Rosa spp.,flowering,20,27,15,30,15,30,6,direct_sunlight,1-14,90,실외 최적,medium,병충해 관리 필수
+cactus,선인장,Cactus,Cactaceae,succulent,18,24,5,40,40,60,5,bright_indirect,35-42,365,실내 최적,easy,과습 주의
+tulip,튤립,Tulip,Tulipa gesneriana,flowering,15,20,0,25,40,60,6,direct_sunlight,7-30,120,실외 최적,easy,월동 필요
+sunflower,해바라기,Sunflower,Helianthus annuus,flowering,20,30,10,35,40,50,7,direct_sunlight,4-10,90,실외 최적,easy,깊은 화분 필요
+lavender,라벤더,Lavender,Lavandula spp.,herb,15,21,3,30,30,40,6,direct_sunlight,7-14,90,실외 최적,medium,과습 주의
+orchid,난초,Orchid,Phalaenopsis spp.,flowering,18,27,15,30,50,70,11,bright_indirect,6-10,180,실내 최적,medium,뿌리 관찰 중요
+aloe,알로에,Aloe Vera,Aloe vera,succulent,18,24,4,27,40,60,5,bright_indirect,11-25,365,실내 최적,easy,다육용 토양
+succulent,다육식물,Succulent,Echeveria spp.,succulent,20,25,5,30,40,70,5,bright_indirect,7-21,180,실내/실외,easy,배수 최우선
+rubber_plant,고무나무,Rubber Plant,Ficus elastica,foliage,21,25,10,28,40,70,6,bright_indirect,6-10,365,실내 최적,easy,공기정화 식물
+monstera,몬스테라,Monstera,Monstera deliciosa,foliage,20,25,15,27,60,70,7,bright_indirect,8-17,365,실내 최적,easy,지주대 필요
+lettuce,상추,Lettuce,Lactuca sativa,vegetable,15,20,7,24,50,70,6,bright_light,2,25-60,실내/실외,easy,빠른 성장
+tomato,토마토,Tomato,Solanum lycopersicum,vegetable,20,25,10,30,65,85,8,direct_sunlight,2,50-85,실외 최적,hard,일관된 수분 필수
+chili,고추,Chili Pepper,Capsicum annuum,vegetable,21,26,15,32,65,85,8,direct_sunlight,3,90-180,실외 최적,hard,긴 재배 기간
+basil,바질,Basil,Ocimum basilicum,herb,26,32,12,35,65,85,6,bright_light,3-5,28-42,실내/실외,easy,향신료
+mint,민트,Mint,Mentha spp.,herb,13,21,-10,30,50,70,5,partial_shade,3,56-84,실내/실외,easy,번식력 강함

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "Grep",
+      "Glob",
+      "mcp__filesystem",
+      "mcp__github",
+      "mcp__perplexity",
+      "mcp__ssh"
+    ],
+    "deny": []
+  },
+  "env": {},
+  "hooks": {}
+}
