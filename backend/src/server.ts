@@ -5,7 +5,7 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import rateLimit from 'express-rate-limit';
 
-import db, { testConnection } from './config/database';
+import { testConnection } from './config/database';
 import routes from './routes';
 import { errorHandler } from './middleware/errorHandler';
 import logger from './utils/logger';
@@ -45,7 +45,7 @@ const limiter = rateLimit({
 app.use(`/api/${API_VERSION}`, limiter);
 
 // Health check endpoint
-app.get('/health', async (req, res) => {
+app.get('/health', async (_req, res) => {
   const dbConnected = await testConnection();
   res.json({
     status: dbConnected ? 'ok' : 'degraded',
@@ -60,7 +60,7 @@ app.get('/health', async (req, res) => {
 app.use(`/api/${API_VERSION}`, routes);
 
 // 404 handler
-app.use((req, res) => {
+app.use((_req, res) => {
   res.status(404).json({
     success: false,
     error: {

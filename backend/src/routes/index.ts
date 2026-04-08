@@ -11,7 +11,7 @@ router.use('/plants', plantRoutes);
 router.use('/user-plants', userPlantRoutes);
 
 // API info
-router.get('/', (req, res) => {
+router.get('/', (_req, res) => {
   res.json({
     message: 'Welcome to Plantii API',
     version: '1.0.0',
