@@ -6,7 +6,6 @@ import { useAuth } from '../contexts/AuthContext';
 
 const Dashboard: React.FC = () => {
   const { user } = useAuth();
-  const [plants, setPlants] = useState<UserPlant[]>([]);
   const [currentPlant, setCurrentPlant] = useState<UserPlant | null>(null);
   const [loading, setLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
@@ -19,7 +18,6 @@ const Dashboard: React.FC = () => {
   const loadPlants = async () => {
     try {
       const data = await plantService.getUserPlants();
-      setPlants(data);
       if (data.length > 0) {
         setCurrentPlant(data[0]);
       }
